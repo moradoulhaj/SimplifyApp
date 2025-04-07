@@ -5,7 +5,7 @@ FROM tomcat:9-jdk11-openjdk
 WORKDIR /usr/local/tomcat/webapps
 
 # Copy the WAR file from the target directory into the Tomcat webapps directory
-COPY target/simplify.war /usr/local/tomcat/webapps/ROOT.war
+COPY target/Simplify-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose port 8080 to the outside world
 EXPOSE 8080

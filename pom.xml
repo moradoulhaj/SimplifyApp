@@ -14,7 +14,7 @@
     <groupId>com.gschool</groupId>
     <artifactId>Simplify</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>Simplify</name>
     <description>Simplify New Spring Boot Application</description>
 
