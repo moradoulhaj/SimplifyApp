@@ -34,13 +34,13 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- MySQL Driver -->
-
+        <!-- PostgreSQL JDBC Driver -->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.7.2</version> <!-- Use the latest version if needed -->
+            <version>42.7.3</version> <!-- latest version -->
         </dependency>
+
 
         <!-- Spring Boot Starter Tomcat -->
         <dependency>
